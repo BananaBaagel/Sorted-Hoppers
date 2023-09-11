@@ -4,7 +4,7 @@
 
 # Sorted Hoppers
 
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/RSOYIowt?logo=modrinth&link=https%3A%2F%2Fmodrinth.com%2Fmod%2FZs79Mkhy&label=Downloads)
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/RSOYIowt?logo=modrinth&link=https%3A%2F%2Fmodrinth.com%2Fmod%2FRSOYIowt&label=Downloads)
 ![Modrinth Version](https://img.shields.io/modrinth/v/RSOYIowt?logo=Modrinth&label=Lastest%20Version&color=14a551&link=https%3A%2F%2Fmodrinth.com%2Fmod%2FRSOYIowt)
 ![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/RSOYIowt?logo=Modrinth&label=Supported%20Game%20Versions&color=14a551&link=https%3A%2F%2Fmodrinth.com%2Fmod%2FRSOYIowt)
 
