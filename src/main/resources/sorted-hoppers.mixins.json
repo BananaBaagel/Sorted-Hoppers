@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.banana.sortedhoppers.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"SortingHopperMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

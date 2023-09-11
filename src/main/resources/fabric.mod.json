@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "sorted-hoppers",
+	"version": "${version}",
+	"name": "Sorted Hoppers",
+	"description": "Makes a sorting hopper for use with Fast Hoppers",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/sorted-hoppers",
+		"sources": "https://github.com/BananaBaagel/Sorted-Hoppers",
+		"issues": "https://github.com/BananaBaagel/Sorted-Hoppers/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sorted-hoppers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"sorted-hoppers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": [
+			">=1.20 <=1.20.1"
+		],
+		"java": ">=17",
+		"fabric-api": "*",
+		"fast-hoppers": ">=0.2.0"
+	}
+}
