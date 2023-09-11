@@ -21,4 +21,7 @@ public class Logger {
         LOGGER.error(message);
     }
 
+    public static org.slf4j.Logger getLogger() {
+        return LOGGER;
+    }
 }
