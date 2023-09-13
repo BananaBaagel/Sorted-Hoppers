@@ -1,0 +1,53 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "FACING": "north",
+                "SORTED": "true"
+            },
+            "apply": {
+                "model": "block/hopper_sort_side"
+            }
+        },
+        {
+            "when": {
+                "FACING": "east",
+                "SORTED": "true"
+            },
+            "apply": {
+                "model": "block/hopper_sort_side",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "FACING": "south",
+                "SORTED": "true"
+            },
+            "apply": {
+                "model": "block/hopper_sort_side",
+                "y": 180
+            }
+            
+        },
+        {
+            "when": {
+                "FACING": "west",
+                "SORTED": "true"
+            },
+            "apply": {
+                "model": "block/hopper_sort_side",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "FACING": "down",
+                "SORTED": "true"
+            },
+            "apply": {
+                "model": "block/hopper_sort"
+            }
+        }
+    ]
+}

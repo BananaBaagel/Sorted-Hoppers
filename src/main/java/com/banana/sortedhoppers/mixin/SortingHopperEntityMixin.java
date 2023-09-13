@@ -17,9 +17,9 @@ import net.minecraft.text.Text;
 
 @Mixin(HopperBlockEntity.class)
 @Implements(@Interface(iface = Inventory.class, prefix = "inv$"))
-public class SortingHopperMixin {
+public class SortingHopperEntityMixin {
 
-    private boolean sorted;
+    public boolean sorted;
 
     @Inject(method = "readNbt", at = @At(value = "TAIL"), locals = LocalCapture.CAPTURE_FAILHARD)
     public void readNbt(NbtCompound nbt, CallbackInfo ci) {

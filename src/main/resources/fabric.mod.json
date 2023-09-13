@@ -5,17 +5,22 @@
 	"name": "Sorted Hoppers",
 	"description": "Makes a sorting hopper for use with Fast Hoppers",
 	"authors": [
-		"Me!"
+		"Bananzy7 / BananaBaagel"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/sorted-hoppers",
 		"sources": "https://github.com/BananaBaagel/Sorted-Hoppers",
 		"issues": "https://github.com/BananaBaagel/Sorted-Hoppers/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/sorted-hoppers/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"client": [
+			"com.banana.sortedhoppers.client.ModInit"
+		],
+		"main": [
+		]
 	},
 	"mixins": [
 		"sorted-hoppers.mixins.json"
