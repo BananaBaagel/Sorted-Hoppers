@@ -3,7 +3,8 @@
 	"package": "com.banana.sortedhoppers.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"SortingHopperEntityMixin"
+		"SortingHopperEntityMixin",
+		"HopperBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

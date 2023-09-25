@@ -31,7 +31,6 @@
 			">=1.20 <=1.20.1"
 		],
 		"java": ">=17",
-		"fabric-api": "*",
-		"fast-hoppers": ">=0.2.0"
+		"fabric-api": "*"
 	}
 }

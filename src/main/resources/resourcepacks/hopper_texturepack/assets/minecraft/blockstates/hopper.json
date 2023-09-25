@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "facing=north,sorted=true": {
+            "model": "hopper_sort_side"
+        },
+        "facing=east,sorted=true": {
+            "model": "hopper_sort_side",
+            "y": 90
+        },
+        "facing=south,sorted=true": {
+            "model": "hopper_sort_side",
+            "y": 180
+        },
+        "facing=west,sorted=true": {
+            "model": "hopper_sort_side",
+            "y": 270
+        },
+        "facing=down,sorted=true": {
+            "model": "hopper_sort"
+        }
+    }
+}
